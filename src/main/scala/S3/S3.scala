@@ -62,7 +62,7 @@ object S3Service {
      println("Starting to Upload [" + filePath + "] + of type " + mimeType)
 
      val f = for {
-        bucketName <- createBucket("musicbucketupload")
+        bucketName <- createBucket("testbucketupload")
         contentLength <- uploadFile(bucketName)(filePath, mimeType)
      } yield contentLength
 

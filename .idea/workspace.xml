@@ -58,10 +58,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="S3.scala" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="S3.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/S3/S3.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="59" selection-start="744" selection-end="744" vertical-scroll-proportion="27.0">
+            <state line="64" column="52" selection-start="2318" selection-end="2318" vertical-scroll-proportion="0.18677042">
               <folding>
                 <element signature="e#22#71#0" expanded="true" />
               </folding>
@@ -69,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="61" selection-start="182" selection-end="182" vertical-scroll-proportion="0.07037037">
+            <state line="0" column="61" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,8 +109,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/mime.types" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/scala/S3/S3.scala" />
         <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/src/main/scala/S3/S3.scala" />
       </list>
     </option>
   </component>
@@ -201,6 +201,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="S3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="S3.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -504,19 +508,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/S3/S3.scala">
+    <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="59" selection-start="744" selection-end="744" vertical-scroll-proportion="27.0">
-          <folding>
-            <element signature="e#22#71#0" expanded="true" />
-          </folding>
+        <state line="0" column="61" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/S3/S3.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="61" selection-start="182" selection-end="182" vertical-scroll-proportion="0.07037037">
-          <folding />
+        <state line="64" column="52" selection-start="2318" selection-end="2318" vertical-scroll-proportion="0.18677042">
+          <folding>
+            <element signature="e#22#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,2 +1,2 @@
-A Non Blocking Scala Based DSL over JetS3t (http://jets3t.s3.amazonaws.com/downloads.html)
-==========================================================================================
+A Non Blocking Scala Based DSL to support Mutipart S3 Uploads
+=============================================================
