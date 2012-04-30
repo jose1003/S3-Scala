@@ -1,2 +1,2 @@
-A Non Blocking Scala Based DSL for Amazon S3 Interaction
-========================================================
+A Non Blocking Scala Based DSL over JetS3t (http://jets3t.s3.amazonaws.com/downloads.html)
+==========================================================================================
