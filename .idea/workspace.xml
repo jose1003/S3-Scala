@@ -61,7 +61,7 @@
       <file leaf-file-name="S3.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/S3/S3.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="52" selection-start="2318" selection-end="2318" vertical-scroll-proportion="0.18677042">
+            <state line="69" column="16" selection-start="2453" selection-end="2453" vertical-scroll-proportion="0.37159532">
               <folding>
                 <element signature="e#22#71#0" expanded="true" />
               </folding>
@@ -256,6 +256,7 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -517,7 +518,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/S3/S3.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="52" selection-start="2318" selection-end="2318" vertical-scroll-proportion="0.18677042">
+        <state line="69" column="16" selection-start="2453" selection-end="2453" vertical-scroll-proportion="0.37159532">
           <folding>
             <element signature="e#22#71#0" expanded="true" />
           </folding>
