@@ -58,13 +58,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="S3.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="S3.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/S3/S3.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="11" selection-start="2532" selection-end="2532" vertical-scroll-proportion="0.5564202">
+            <state line="22" column="59" selection-start="744" selection-end="744" vertical-scroll-proportion="27.0">
               <folding>
                 <element signature="e#22#71#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="0.07037037">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,7 +90,7 @@
       <file leaf-file-name="build.sbt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="12" column="66" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,9 +106,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/resources/mime.types" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/scala/S3/S3.scala" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -472,13 +483,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mime.types">
       <provider selected="true" editor-type-id="text-editor">
         <state line="421" column="0" selection-start="11727" selection-end="11737" vertical-scroll-proportion="-6.576923">
@@ -486,12 +490,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="66" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="44" selection-start="243" selection-end="243" vertical-scroll-proportion="0.17592593">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/S3/S3.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="11" selection-start="2532" selection-end="2532" vertical-scroll-proportion="0.5564202">
+        <state line="22" column="59" selection-start="744" selection-end="744" vertical-scroll-proportion="27.0">
           <folding>
             <element signature="e#22#71#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="0.07037037">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -13,14 +13,14 @@ import org.jets3t.service.model.{S3Object, StorageObject}
 import akka.util.Duration
 import java.util.concurrent.TimeUnit.SECONDS;
 
-
 object S3Service {
+
 
   val executorService = Executors.newFixedThreadPool(10)
   implicit val context = ExecutionContext.fromExecutor(executorService)
 
-   val AWS_SECRET_KEY =  "o2cRotlKbpIFII98H42tlredKDwE0hFrtz/bQK6Z"
-   val AWS_ACCESS_KEY =  "AKIAJFPIVZ6QZPFS2SGQ"
+   val AWS_SECRET_KEY =  "AWS_SECRET_KEY"  // Your AWS Secret Key
+   val AWS_ACCESS_KEY =  "AWS_ACCESS_KEY"  // Your AWS Access Key
 
    def createBucket(bucketName : String) : Future[String] = {
 
@@ -56,16 +56,20 @@ object S3Service {
   def main(args: Array[String])
    {
 
-     val filePath =  "/Users/sindhuc/Downloads/BuddhistOmChant.mp3"
-     val mimeType = "audio/mpeg"
+     val filePath =  "/dir/to/filepath" // add the file (including path)
+     val mimeType = "mimetype"  //refer to mime.types in resources and add the relevant mime
+
      println("Starting to Upload [" + filePath + "] + of type " + mimeType)
+
      val f = for {
         bucketName <- createBucket("musicbucketupload")
         contentLength <- uploadFile(bucketName)(filePath, mimeType)
      } yield contentLength
+
      val result = {
        Await.result(f, Duration.create(120, SECONDS))
      }
+
      println("Upload Successfully Completed ...")
      println("Tuple verifying File Length after Upload " + result)
 
